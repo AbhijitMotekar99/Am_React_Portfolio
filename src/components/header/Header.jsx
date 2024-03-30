@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState, useEffect } from "react";
 import "./header.css";
 //import DarkMode from "../dark_mode/DarkMode";
