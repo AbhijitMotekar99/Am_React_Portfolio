@@ -1,4 +1,4 @@
-/*import React from 'react'*/
+import React from 'react'
 import "./projects.css";
 import { Data } from "./Data";
 // Import Swiper React components
