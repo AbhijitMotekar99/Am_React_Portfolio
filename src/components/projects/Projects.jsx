@@ -1,7 +1,6 @@
 import React from 'react'
 import "./projects.css";
 import { Data } from "./Data";
-import AnimatedBackground from "../AnimatedBackground/AnimatedBackground"
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -16,7 +15,6 @@ import { Pagination } from 'swiper/modules';
 const Projects = () => {
   return (
     <section className="projects container section" id="projects">
-      <AnimatedBackground />
       <h2 className="section__title">Projects</h2>
       <span className="section__subtitle">My Portfolio Showcase</span>
 
