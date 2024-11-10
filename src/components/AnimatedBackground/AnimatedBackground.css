@@ -14,7 +14,7 @@
     width: 60px;
     height: 60px;
     background-color: transparent;
-    border: 6px solid rgba(222, 222, 222, 0.8);
+    border: 6px solid var(--square-bg-color);
   }
   
   .square-1 { top: 12%; left: 42%; animation: animate 10s linear infinite; }

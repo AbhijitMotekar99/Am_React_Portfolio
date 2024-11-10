@@ -1,3 +1,4 @@
+/* Scrollup Button Base Styles */
 .scrollup {
     position: fixed;
     right: 2.5rem;
@@ -6,28 +7,39 @@
     opacity: 0.8;
     padding: 0.3rem 0.5rem;
     border-radius: 2rem;
-    z-index: var(--z-tootltip);
+    z-index: var(--z-tooltip);
     transition: .4s;
+    animation: float 2s ease-in-out infinite;
 }
 
+/* Icon Style */
 .scrollup__icon {
     font-size: 1.5rem;
     color: var(--container-color);
     transition: transform 0.3s ease-in-out;
 }
 
+/* Hover Effects */
 .scrollup:hover {
     background-color: var(--title-color-dark);
-    transform: translateY(-4px);
+    transform: translateY(0);
+    animation-play-state: paused;
 }
-
 
 /* Show Scroll */
 .show-scroll {
     bottom: 3rem;
 }
 
-
+/* Floating Animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
@@ -40,19 +52,18 @@
     .scrollup__icon {
         font-size: 1.25rem;
     }
-  }
-  
-  /* For medium devices */
-  @media screen and (max-width: 768px) {
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
     .show-scroll {
         bottom: 4rem;
     }
-  }
-  
-  /* For small devices */
-  @media screen and (max-width: 350px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
     .scrollup {
         right: 1rem;
     }
-  }
-  
+}
