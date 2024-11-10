@@ -4,7 +4,7 @@
 
 .home__content {
     grid-template-columns: 116px repeat(2, 1fr);
-    padding-top: 5.5rem;
+    padding-top: 4rem;
     column-gap: 2rem;
     align-items: center;
 }
@@ -95,6 +95,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-left: 5rem;
     box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
     order: 1;
     justify-content: center;
