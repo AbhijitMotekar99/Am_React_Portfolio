@@ -22,14 +22,30 @@
 
 
 .home__social-icon {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: var(--title-color);
     transition: transform 0.3s ease-in-out;
 }
 
 .home__social-icon:hover {
-    color: var(--title-color-dark);
+    /* color: var(--title-color-dark); */
     transform: translateY(-6px);
+}
+
+.insta:hover{
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.linkedin:hover{
+    color: #0077B5;
+}
+
+.github:hover{
+    color: #7c00a1;
 }
 
 .home__title {

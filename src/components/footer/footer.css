@@ -18,7 +18,7 @@
 }
 
 .footer__link:hover {
-    color: var(--title-color-dark);
+    /* color: var(--title-color-dark); */
 }
 
 .footer__list {

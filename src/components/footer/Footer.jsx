@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="footer__social">
           <a
             href="https://www.instagram.com/abhijit.motekar/"
-            className="footer__social-link"
+            className="footer__social-link insta"
             target="_blank"
           >
             <i className="uil uil-instagram-alt"></i>
@@ -38,7 +38,7 @@ const Footer = () => {
 
           <a
             href="https://www.linkedin.com/in/abhijit-motekar-46017022a/"
-            className="footer__social-link"
+            className="footer__social-link linkedin"
             target="_blank"
           >
             <i className="uil uil-linkedin"></i>{" "}
@@ -46,7 +46,7 @@ const Footer = () => {
 
           <a
             href="https://github.com/AbhijitMotekar99"
-            className="footer__social-link"
+            className="footer__social-link github"
             target="_blank"
           >
             <i className="uil uil-github"></i>
