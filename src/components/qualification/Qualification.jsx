@@ -160,11 +160,26 @@ const Qualification = () => {
                   Intership
                 </span>
                 <div className="qualification__calender">
-                  <i className="bx bx-calendar"></i> 2024 - Present
+                  <i className="bx bx-calendar"></i> Dec 2023 - Mar 1024 
                 </div>
               </div>
             </div>
             
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Celebal Technologies</h3>
+                <span className="qualification__subtitle">
+                ReactJS Devloper
+                </span>
+                <div className="qualification__calender">
+                  <i className="bx bx-calendar"></i> Mar 2024 - July 2024
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
 
             {/*
             <div className="qualification__data">

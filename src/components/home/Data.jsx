@@ -54,7 +54,7 @@ const Data = () => {
                     fill="#EBA352"
                   ></path>
         </svg>
-        <h3 className="home__subtitle">Web Developer</h3>
+        <h3 className="home__subtitle">Web Developer / UI-UX</h3>
         <p className="home__description">I am currently pursuing a B.Tech degree in Computer Science at Pimpri Chinchwad College of Engineering, Pune.</p>
 
         <a href="#contact" className="button button--flex">
