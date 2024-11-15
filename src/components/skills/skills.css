@@ -106,7 +106,7 @@
 
 @media screen and (max-width: 480px) {
   .skills__grid {
-    grid-template-columns: repeat(5, 1fr); /* Maintain 5 icons per row */
+    grid-template-columns: repeat(7, 1fr); /* Maintain 5 icons per row */
     gap: var(--mb-0-5); /* Smaller gap for mobile */
   }
 
