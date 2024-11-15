@@ -1,83 +1,127 @@
 .skills__container {
-    display: flex;
-    justify-content: center;
-  }
-  
+  display: flex;
+  justify-content: center;
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* Default for large screens */
+  gap: var(--mb-1-5);
+  row-gap: var(--mb-2-5);
+  max-width: 80%;
+  margin: auto;
+}
+
+.skills__icon-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills__icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem; /* Added margin for spacing */
+  transition: transform 0.3s ease;
+}
+
+.skills__icon-container:hover .skills__icon {
+  transform: translateY(-10px);
+}
+
+.skills__icon-name {
+  font-size: var(--smaller-font-size); /* Adjusted font size variable */
+  text-align: center;
+  color: var(--title-color); /* Text color for icon name */
+  position: absolute;
+  top: -32px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.skills__icon-container:hover .skills__icon-name {
+  opacity: 1;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  text-align: center;
+  color: var(--title-color-dark);
+}
+
+.section__subtitle {
+  font-size: var(--h3-font-size);
+  text-align: center;
+  color: var(--text-color);
+}
+
+.skills__badges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.skills__badge-image {
+  width: 800px;
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 1rem; /* Added margin for spacing */
+}
+
+.gssoc {
+  opacity: 0.8;
+}
+
+.skills__badge-image:hover {
+  transform: scale(1.02);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
   .skills__grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    gap: var(--mb-1-5);
-    row-gap: var(--mb-2-5);
-    max-width: 80%;
-    margin: auto;
+    grid-template-columns: repeat(7, 1fr); /* 5 icons per row on medium screens */
+    gap: var(--mb-1); /* Reduced gap for smaller screens */
   }
-  
-  .skills__icon-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+
   .skills__icon {
-    width: 50px;
-    height: 50px;
-    transition: transform 0.3s ease;
+    width: 40px;
+    height: 40px; /* Adjusted size for smaller screens */
   }
-  
-  .skills__icon-container:hover .skills__icon {
-    transform: translateY(-10px);
-  }
-  
+
   .skills__icon-name {
-    font-size: var(--smaller-font-size); /* Adjusted font size variable */
-    text-align: center;
-    color: var(--title-color); /* Text color for icon name */
-    position: absolute;
-    top: -32px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  
-  .skills__icon-container:hover .skills__icon-name {
-    opacity: 1;
-  }
-  
-  .section__title {
-    font-size: var(--h1-font-size);
-    text-align: center;
-    color: var(--title-color-dark);
-  }
-  
-  .section__subtitle {
-    font-size: var(--h3-font-size);
-    text-align: center;
-    color: var(--text-color);
+    font-size: var(--tiny-font-size); /* Reduced font size */
+    top: -28px;
   }
 
-  .skills__badges {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 2rem;
-  }
-  
   .skills__badge-image {
-    width: 800px;
-    height: auto;
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    width: 600px; /* Adjusted size for badges */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills__grid {
+    grid-template-columns: repeat(5, 1fr); /* Maintain 5 icons per row */
+    gap: var(--mb-0-5); /* Smaller gap for mobile */
   }
 
-  .gssoc{
-    opacity: .8;
+  .skills__icon {
+    width: 35px;
+    height: 35px; /* Further reduced size for mobile */
   }
-  
-  .skills__badge-image:hover {
-    transform: scale(1.02);
+
+  .skills__icon-name {
+    font-size: var(--tiny-font-size); /* Slightly smaller font size */
+    top: -25px;
   }
-  
-  
+
+  .skills__badge-image {
+    width: 100%; /* Fit badges to screen width */
+    margin: 0.5rem; /* Add smaller margin for better spacing */
+  }
+}
