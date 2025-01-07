@@ -10,6 +10,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Preloader from './components/Preloader/PreLoader';
+import SplashCursor from './components/Cursor/Cursor';
 
 function App() {
   const [isPreloaderVisible, setIsPreloaderVisible] = useState(true);
@@ -26,6 +27,7 @@ function App() {
         <Preloader />
       ) : (
         <>
+          <SplashCursor />
           <Header />
 
           <main className='main'>

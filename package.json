@@ -12,6 +12,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
     "emailjs-com": "^3.2.0",
+    "props": "^0.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swiper": "^11.0.6"

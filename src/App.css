@@ -62,8 +62,8 @@
   --title-color: hsl(var(--hue), var(--sat), 80%); /* Opposite of original title-color */
   --title-color-dark: hsl(var(--hue), var(--sat), 100%); /* Opposite of original title-color-dark */
   --text-color: hsl(var(--hue), var(--sat), 54%); /* Adjusted to be more visible on dark background */
-  --body-color: #1f1f20; /* Darker background */
-  --container-color: #2b2b2d; /* Adjusted for a darker container color */
+  --body-color: #181818; /* Darker background */
+  --container-color: #242425; /* Adjusted for a darker container color */
   --square-bg-color : rgba(47, 47, 47, 0.8);
   
     /*========== Font and typography ==========*/
