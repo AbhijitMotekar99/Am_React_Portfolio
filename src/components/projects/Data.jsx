@@ -18,8 +18,8 @@ export const Data = [
     title: "Heart Failure Prediction",
     description:
       "A Heart Failure Prediction System developed with ML ensemble learning models (Bagging), Python, and JavaScript, with an integrated AI-powered chatbot.",
-    link1: "#Projects",
-    link2: "#Projects",
+    link1: "https://github.com/AbhijitMotekar99/Heart_Failure_Prediction-Am",
+    link2: "https://hfp-3isl.onrender.com",
   },
   {
     id: 2,

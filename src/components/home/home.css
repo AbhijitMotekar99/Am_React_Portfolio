@@ -91,7 +91,7 @@
 }
 
 .home__img {
-    background: url(../../assets//profile.jpg);
+    background: url(../../assets/profile2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -99,8 +99,8 @@
     box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
     order: 1;
     justify-content: center;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     animation: profile__animate 7s ease-in-out infinite 1s,zoomIn 1s ease forwards;
     opacity: 0;
     animation-delay: 1s, 1.5s;
