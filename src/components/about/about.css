@@ -1,14 +1,15 @@
 .about__container {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  column-gap: 4rem;
+  column-gap: 2rem;
 }
 
-.about__img {
-  width: 350px;
+ .about__img {
+  width: 400px;
   border-radius: 1.5rem;
   justify-self: center;
 }
+
 
 .about__info {
   grid-template-columns: repeat(3, 140px);
@@ -54,6 +55,7 @@
 
   .about__img {
     width: 220px;
+    margin-left: -80px;
   }
 
   .about__box {

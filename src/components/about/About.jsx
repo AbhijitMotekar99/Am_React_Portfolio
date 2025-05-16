@@ -3,6 +3,7 @@ import "./about.css";
 import AboutImg from "../../assets/About_Profile.jpg";
 import CV from "../../assets/Abhijit_Motekar_Resume.pdf";
 import Info from "./Info";
+import ThreeModel from "./ThreeModel";
 
 const About = () => {
   return (
@@ -11,7 +12,10 @@ const About = () => {
       <span className="section__subtitle">My introduction</span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+
+        <div className="about__img">
+          <ThreeModel />
+        </div>
 
         <div className="about__data">
           <Info />
@@ -22,7 +26,7 @@ const About = () => {
             foundation in CPP coupled with a HackerRank 5 Star gold badge in CPP
           </p>
 
-          <a  href={CV} className="button button--flex">
+          <a href={CV} className="button button--flex">
             Download CV
             <svg
               className="button__icon"
