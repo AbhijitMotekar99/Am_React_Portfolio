@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css";
-import AboutImg from "../../assets/About_Profile.jpg";
+// import AboutImg from "../../assets/About_Profile.jpg";
 import CV from "../../assets/Abhijit_Motekar_Resume.pdf";
 import Info from "./Info";
 import ThreeModel from "./ThreeModel";
