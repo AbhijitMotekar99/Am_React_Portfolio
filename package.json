@@ -15,8 +15,8 @@
     "@react-three/fiber": "^9.1.2",
     "emailjs-com": "^3.2.0",
     "props": "^0.2.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "swiper": "^11.0.6",
     "three": "^0.176.0"
   },
